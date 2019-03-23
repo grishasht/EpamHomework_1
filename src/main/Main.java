@@ -1,9 +1,14 @@
 package main;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import Task1.Task1;
+import Task2.Task2;
+import Task3.Task3;
+import Task4.Task4;
+import Task5.Task5;
+
 import java.util.Scanner;
+
+//import common.common;
 //
 //package ua.com.prologistic;
 //
@@ -23,7 +28,7 @@ import java.util.Scanner;
 //}
 
 
-
+/*
 class Homework{
 
     Homework(){
@@ -123,14 +128,14 @@ class Homework{
     }
 
 }
-
+*/
 public class Main {
     public static void main(String[] args){
-        Homework task1 = new Homework();
-        Homework task2 = new Homework();
-        Homework task3 = new Homework();
-        Homework task4 = new Homework();
-        Homework task5 = new Homework();
+        Task1 task1 = new Task1();
+        Task2 task2 = new Task2();
+        Task3 task3 = new Task3();
+        Task4 task4 = new Task4();
+        Task5 task5 = new Task5();
         Scanner scanner = new Scanner(System.in);
 
         //Task1
